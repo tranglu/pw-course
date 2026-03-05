@@ -1,0 +1,15 @@
+a.Tạo 3 file: file1, file2, file3
+ repository local: file1, file2, file3
+b. Chạy lệnh: git init
+ working directory: file1, file2, file3
+c. Chạy lệnh: git commit -m”init project”
+ working directory: file1, file2, file3
+d: Chạy lệnh: git add file1
+ - working directory: file2, file3
+ - staging area: file1
+e. Chạy lệnh: git commit -m”add file1”
+- working directory: file2, file3
+- repository: file1 
+f. Chạy lệnh: git commit -m”add file”
+  - working directory: file2, file3
+  - repository: file1 

@@ -1,0 +1,4 @@
+git init: khởi tạo repository local
+git add <file_name>: add file có name = file_name vào vùng staging area
+git add .: add tất cả các file chưa add vào staging area
+git commit -m "message": đưa các file từ vùng staging area sang vùng repository với message = " message" ( message để đánh dấu lần commit đó làm gì)
