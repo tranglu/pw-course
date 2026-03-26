@@ -24,8 +24,8 @@ test('Test 1: Điền vào trang register page', async ({ page }) => {
     });
     //step 3: click button đăng ký
     await test.step("Step 2:Click chuột", async () => {
-        await page.locator('//*[@id="registrationForm"]/div[16]/button').click();
-
+        //await page.locator('//*[@id="registrationForm"]/div[16]/button').click();
+        await page.locator("//button[@type='submit']").click();
     });
 
 });
